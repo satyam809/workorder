@@ -1,0 +1,275 @@
+[20-Oct-2021 08:39:36 America/Chicago] PHP Warning:  Missing argument 3 for API::registration(), called in /home4/ab66529/workorder.vespac.com/api/registration.php on line 7 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 29
+[20-Oct-2021 08:39:36 America/Chicago] PHP Warning:  Missing argument 4 for API::registration(), called in /home4/ab66529/workorder.vespac.com/api/registration.php on line 7 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 29
+[20-Oct-2021 08:39:36 America/Chicago] PHP Warning:  Missing argument 5 for API::registration(), called in /home4/ab66529/workorder.vespac.com/api/registration.php on line 7 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 29
+[20-Oct-2021 08:39:36 America/Chicago] PHP Warning:  Missing argument 6 for API::registration(), called in /home4/ab66529/workorder.vespac.com/api/registration.php on line 7 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 29
+[20-Oct-2021 23:44:53 America/Chicago] PHP Fatal error:  Call to undefined function issset() in /home4/ab66529/workorder.vespac.com/api/registration.php on line 10
+[20-Oct-2021 23:44:59 America/Chicago] PHP Fatal error:  Call to undefined function issset() in /home4/ab66529/workorder.vespac.com/api/registration.php on line 10
+[20-Oct-2021 23:46:11 America/Chicago] PHP Fatal error:  Call to undefined function issset() in /home4/ab66529/workorder.vespac.com/api/registration.php on line 10
+[20-Oct-2021 23:49:08 America/Chicago] PHP Fatal error:  Call to undefined function issset() in /home4/ab66529/workorder.vespac.com/api/registration.php on line 10
+[21-Oct-2021 06:30:27 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'password='323da0bbabd372e97dcff682a334a20a',salt='',autoLogin='',timeZone='',exp' at line 1' in /home4/ab66529/workorder.vespac.com/api/index.php:54
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/index.php(54): PDO->query('update frk_memb...')
+#1 /home4/ab66529/workorder.vespac.com/api/edit_profile.php(9): API->edit_profile('satyam@gmail.co...', NULL, NULL, NULL, 'xyz', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'test@123', 'test@12', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/index.php on line 54
+[21-Oct-2021 06:32:54 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'password='323da0bbabd372e97dcff682a334a20a',salt='',autoLogin='',timeZone='',exp' at line 1' in /home4/ab66529/workorder.vespac.com/api/index.php:54
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/index.php(54): PDO->query('update frk_memb...')
+#1 /home4/ab66529/workorder.vespac.com/api/edit_profile.php(9): API->edit_profile('satyam@gmail.co...', NULL, NULL, NULL, 'xyz', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'test@123', 'test@12', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/index.php on line 54
+[21-Oct-2021 06:37:15 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'password='323da0bbabd372e97dcff682a334a20a',salt='',autoLogin='',timeZone='',exp' at line 1' in /home4/ab66529/workorder.vespac.com/api/index.php:54
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/index.php(54): PDO->query('update frk_memb...')
+#1 /home4/ab66529/workorder.vespac.com/api/edit_profile.php(9): API->edit_profile('satyam@gmail.co...', NULL, NULL, NULL, 'xyz', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'test@123', 'test@12', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/index.php on line 54
+[21-Oct-2021 06:39:51 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'password='323da0bbabd372e97dcff682a334a20a',salt='',autoLogin='',timeZone='',exp' at line 1' in /home4/ab66529/workorder.vespac.com/api/index.php:54
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/index.php(54): PDO->query('update frk_memb...')
+#1 /home4/ab66529/workorder.vespac.com/api/edit_profile.php(9): API->edit_profile('satyam@gmail.co...', NULL, NULL, NULL, 'xyz', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'test@123', 'test@12', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/index.php on line 54
+[21-Oct-2021 06:40:02 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'password='d41d8cd98f00b204e9800998ecf8427e',salt='',autoLogin='',timeZone='',exp' at line 1' in /home4/ab66529/workorder.vespac.com/api/index.php:54
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/index.php(54): PDO->query('update frk_memb...')
+#1 /home4/ab66529/workorder.vespac.com/api/edit_profile.php(9): API->edit_profile(NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/index.php on line 54
+[21-Oct-2021 06:51:24 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'password='323da0bbabd372e97dcff682a334a20a',salt='',autoLogin='',timeZone='',exp' at line 1' in /home4/ab66529/workorder.vespac.com/api/index.php:54
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/index.php(54): PDO->query('update frk_memb...')
+#1 /home4/ab66529/workorder.vespac.com/api/edit_profile.php(10): API->edit_profile('satyam@gmail.co...', NULL, NULL, NULL, 'xyz', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'test@123', 'test@12', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/index.php on line 54
+[21-Oct-2021 06:55:06 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'password='d41d8cd98f00b204e9800998ecf8427e',salt='',autoLogin='',timeZone='',exp' at line 1' in /home4/ab66529/workorder.vespac.com/api/index.php:54
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/index.php(54): PDO->query('update frk_memb...')
+#1 /home4/ab66529/workorder.vespac.com/api/edit_profile.php(10): API->edit_profile('satyam@gmail.co...', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'test@123', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/index.php on line 54
+[21-Oct-2021 06:55:45 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'password='d41d8cd98f00b204e9800998ecf8427e',salt='',autoLogin='',timeZone='',exp' at line 1' in /home4/ab66529/workorder.vespac.com/api/index.php:54
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/index.php(54): PDO->query('update frk_memb...')
+#1 /home4/ab66529/workorder.vespac.com/api/edit_profile.php(10): API->edit_profile(NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/index.php on line 54
+[21-Oct-2021 06:57:31 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'password='d41d8cd98f00b204e9800998ecf8427e',salt='',autoLogin='',timeZone='',exp' at line 1' in /home4/ab66529/workorder.vespac.com/api/index.php:54
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/index.php(54): PDO->query('update frk_memb...')
+#1 /home4/ab66529/workorder.vespac.com/api/edit_profile.php(10): API->edit_profile(NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/index.php on line 54
+[21-Oct-2021 06:58:04 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'password='d41d8cd98f00b204e9800998ecf8427e',salt='',autoLogin='',timeZone='',exp' at line 1' in /home4/ab66529/workorder.vespac.com/api/index.php:54
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/index.php(54): PDO->query('update frk_memb...')
+#1 /home4/ab66529/workorder.vespac.com/api/edit_profile.php(10): API->edit_profile(NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/index.php on line 54
+[21-Oct-2021 06:59:11 America/Chicago] PHP Warning:  Missing argument 1 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 06:59:11 America/Chicago] PHP Warning:  Missing argument 2 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 06:59:11 America/Chicago] PHP Warning:  Missing argument 3 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 06:59:11 America/Chicago] PHP Warning:  Missing argument 4 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 06:59:11 America/Chicago] PHP Warning:  Missing argument 5 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 06:59:11 America/Chicago] PHP Warning:  Missing argument 6 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 06:59:11 America/Chicago] PHP Warning:  Missing argument 7 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 06:59:11 America/Chicago] PHP Warning:  Missing argument 8 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 06:59:11 America/Chicago] PHP Warning:  Missing argument 9 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 06:59:11 America/Chicago] PHP Warning:  Missing argument 10 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 06:59:11 America/Chicago] PHP Warning:  Missing argument 11 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 06:59:11 America/Chicago] PHP Warning:  Missing argument 12 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 06:59:11 America/Chicago] PHP Warning:  Missing argument 13 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 06:59:11 America/Chicago] PHP Warning:  Missing argument 14 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 06:59:11 America/Chicago] PHP Warning:  Missing argument 15 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 06:59:11 America/Chicago] PHP Warning:  Missing argument 16 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 06:59:11 America/Chicago] PHP Warning:  Missing argument 17 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 06:59:11 America/Chicago] PHP Warning:  Missing argument 18 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 06:59:11 America/Chicago] PHP Warning:  Missing argument 19 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 06:59:11 America/Chicago] PHP Warning:  Missing argument 20 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 06:59:11 America/Chicago] PHP Warning:  Missing argument 21 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 06:59:11 America/Chicago] PHP Warning:  Missing argument 22 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 06:59:11 America/Chicago] PHP Warning:  Missing argument 23 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 06:59:11 America/Chicago] PHP Warning:  Missing argument 24 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 06:59:11 America/Chicago] PHP Warning:  Missing argument 25 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 06:59:11 America/Chicago] PHP Warning:  Missing argument 26 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 06:59:11 America/Chicago] PHP Warning:  Missing argument 27 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 06:59:11 America/Chicago] PHP Warning:  Missing argument 28 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 06:59:11 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'password='d41d8cd98f00b204e9800998ecf8427e',salt='',autoLogin='',timeZone='',exp' at line 1' in /home4/ab66529/workorder.vespac.com/api/index.php:54
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/index.php(54): PDO->query('update frk_memb...')
+#1 /home4/ab66529/workorder.vespac.com/api/edit_profile.php(10): API->edit_profile()
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/index.php on line 54
+[21-Oct-2021 06:59:16 America/Chicago] PHP Warning:  Missing argument 1 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 06:59:16 America/Chicago] PHP Warning:  Missing argument 2 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 06:59:16 America/Chicago] PHP Warning:  Missing argument 3 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 06:59:16 America/Chicago] PHP Warning:  Missing argument 4 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 06:59:16 America/Chicago] PHP Warning:  Missing argument 5 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 06:59:16 America/Chicago] PHP Warning:  Missing argument 6 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 06:59:16 America/Chicago] PHP Warning:  Missing argument 7 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 06:59:16 America/Chicago] PHP Warning:  Missing argument 8 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 06:59:16 America/Chicago] PHP Warning:  Missing argument 9 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 06:59:16 America/Chicago] PHP Warning:  Missing argument 10 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 06:59:16 America/Chicago] PHP Warning:  Missing argument 11 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 06:59:16 America/Chicago] PHP Warning:  Missing argument 12 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 06:59:16 America/Chicago] PHP Warning:  Missing argument 13 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 06:59:16 America/Chicago] PHP Warning:  Missing argument 14 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 06:59:16 America/Chicago] PHP Warning:  Missing argument 15 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 06:59:16 America/Chicago] PHP Warning:  Missing argument 16 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 06:59:16 America/Chicago] PHP Warning:  Missing argument 17 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 06:59:16 America/Chicago] PHP Warning:  Missing argument 18 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 06:59:16 America/Chicago] PHP Warning:  Missing argument 19 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 06:59:16 America/Chicago] PHP Warning:  Missing argument 20 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 06:59:16 America/Chicago] PHP Warning:  Missing argument 21 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 06:59:16 America/Chicago] PHP Warning:  Missing argument 22 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 06:59:16 America/Chicago] PHP Warning:  Missing argument 23 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 06:59:16 America/Chicago] PHP Warning:  Missing argument 24 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 06:59:16 America/Chicago] PHP Warning:  Missing argument 25 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 06:59:16 America/Chicago] PHP Warning:  Missing argument 26 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 06:59:16 America/Chicago] PHP Warning:  Missing argument 27 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 06:59:16 America/Chicago] PHP Warning:  Missing argument 28 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 06:59:16 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'password='d41d8cd98f00b204e9800998ecf8427e',salt='',autoLogin='',timeZone='',exp' at line 1' in /home4/ab66529/workorder.vespac.com/api/index.php:54
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/index.php(54): PDO->query('update frk_memb...')
+#1 /home4/ab66529/workorder.vespac.com/api/edit_profile.php(10): API->edit_profile()
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/index.php on line 54
+[21-Oct-2021 07:00:11 America/Chicago] PHP Warning:  Missing argument 1 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:00:11 America/Chicago] PHP Warning:  Missing argument 2 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:00:11 America/Chicago] PHP Warning:  Missing argument 3 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:00:11 America/Chicago] PHP Warning:  Missing argument 4 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:00:11 America/Chicago] PHP Warning:  Missing argument 5 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:00:11 America/Chicago] PHP Warning:  Missing argument 6 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:00:11 America/Chicago] PHP Warning:  Missing argument 7 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:00:11 America/Chicago] PHP Warning:  Missing argument 8 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:00:11 America/Chicago] PHP Warning:  Missing argument 9 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:00:11 America/Chicago] PHP Warning:  Missing argument 10 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:00:11 America/Chicago] PHP Warning:  Missing argument 11 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:00:11 America/Chicago] PHP Warning:  Missing argument 12 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:00:11 America/Chicago] PHP Warning:  Missing argument 13 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:00:11 America/Chicago] PHP Warning:  Missing argument 14 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:00:11 America/Chicago] PHP Warning:  Missing argument 15 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:00:11 America/Chicago] PHP Warning:  Missing argument 16 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:00:11 America/Chicago] PHP Warning:  Missing argument 17 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:00:11 America/Chicago] PHP Warning:  Missing argument 18 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:00:11 America/Chicago] PHP Warning:  Missing argument 19 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:00:11 America/Chicago] PHP Warning:  Missing argument 20 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:00:11 America/Chicago] PHP Warning:  Missing argument 21 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:00:11 America/Chicago] PHP Warning:  Missing argument 22 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:00:11 America/Chicago] PHP Warning:  Missing argument 23 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:00:11 America/Chicago] PHP Warning:  Missing argument 24 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:00:11 America/Chicago] PHP Warning:  Missing argument 25 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:00:11 America/Chicago] PHP Warning:  Missing argument 26 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:00:11 America/Chicago] PHP Warning:  Missing argument 27 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:00:11 America/Chicago] PHP Warning:  Missing argument 28 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:00:11 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'password='d41d8cd98f00b204e9800998ecf8427e',salt='',autoLogin='',timeZone='',exp' at line 1' in /home4/ab66529/workorder.vespac.com/api/index.php:54
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/index.php(54): PDO->query('update frk_memb...')
+#1 /home4/ab66529/workorder.vespac.com/api/edit_profile.php(10): API->edit_profile()
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/index.php on line 54
+[21-Oct-2021 07:00:13 America/Chicago] PHP Warning:  Missing argument 1 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:00:13 America/Chicago] PHP Warning:  Missing argument 2 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:00:13 America/Chicago] PHP Warning:  Missing argument 3 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:00:13 America/Chicago] PHP Warning:  Missing argument 4 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:00:13 America/Chicago] PHP Warning:  Missing argument 5 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:00:13 America/Chicago] PHP Warning:  Missing argument 6 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:00:13 America/Chicago] PHP Warning:  Missing argument 7 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:00:13 America/Chicago] PHP Warning:  Missing argument 8 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:00:13 America/Chicago] PHP Warning:  Missing argument 9 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:00:13 America/Chicago] PHP Warning:  Missing argument 10 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:00:13 America/Chicago] PHP Warning:  Missing argument 11 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:00:13 America/Chicago] PHP Warning:  Missing argument 12 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:00:13 America/Chicago] PHP Warning:  Missing argument 13 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:00:13 America/Chicago] PHP Warning:  Missing argument 14 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:00:13 America/Chicago] PHP Warning:  Missing argument 15 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:00:13 America/Chicago] PHP Warning:  Missing argument 16 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:00:13 America/Chicago] PHP Warning:  Missing argument 17 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:00:13 America/Chicago] PHP Warning:  Missing argument 18 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:00:13 America/Chicago] PHP Warning:  Missing argument 19 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:00:13 America/Chicago] PHP Warning:  Missing argument 20 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:00:13 America/Chicago] PHP Warning:  Missing argument 21 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:00:13 America/Chicago] PHP Warning:  Missing argument 22 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:00:13 America/Chicago] PHP Warning:  Missing argument 23 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:00:13 America/Chicago] PHP Warning:  Missing argument 24 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:00:13 America/Chicago] PHP Warning:  Missing argument 25 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:00:13 America/Chicago] PHP Warning:  Missing argument 26 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:00:13 America/Chicago] PHP Warning:  Missing argument 27 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:00:13 America/Chicago] PHP Warning:  Missing argument 28 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:00:13 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'password='d41d8cd98f00b204e9800998ecf8427e',salt='',autoLogin='',timeZone='',exp' at line 1' in /home4/ab66529/workorder.vespac.com/api/index.php:54
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/index.php(54): PDO->query('update frk_memb...')
+#1 /home4/ab66529/workorder.vespac.com/api/edit_profile.php(10): API->edit_profile()
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/index.php on line 54
+[21-Oct-2021 07:13:51 America/Chicago] PHP Warning:  Missing argument 3 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:13:51 America/Chicago] PHP Warning:  Missing argument 4 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:13:51 America/Chicago] PHP Warning:  Missing argument 5 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:13:51 America/Chicago] PHP Warning:  Missing argument 6 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:13:51 America/Chicago] PHP Warning:  Missing argument 7 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:13:51 America/Chicago] PHP Warning:  Missing argument 8 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:13:51 America/Chicago] PHP Warning:  Missing argument 9 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:13:51 America/Chicago] PHP Warning:  Missing argument 10 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:13:51 America/Chicago] PHP Warning:  Missing argument 11 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:13:51 America/Chicago] PHP Warning:  Missing argument 12 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:13:51 America/Chicago] PHP Warning:  Missing argument 13 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:13:51 America/Chicago] PHP Warning:  Missing argument 14 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:13:51 America/Chicago] PHP Warning:  Missing argument 15 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:13:51 America/Chicago] PHP Warning:  Missing argument 16 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:13:51 America/Chicago] PHP Warning:  Missing argument 17 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:13:51 America/Chicago] PHP Warning:  Missing argument 18 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:13:51 America/Chicago] PHP Warning:  Missing argument 19 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:13:51 America/Chicago] PHP Warning:  Missing argument 20 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:13:51 America/Chicago] PHP Warning:  Missing argument 21 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:13:51 America/Chicago] PHP Warning:  Missing argument 22 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:13:51 America/Chicago] PHP Warning:  Missing argument 23 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:13:51 America/Chicago] PHP Warning:  Missing argument 24 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:13:51 America/Chicago] PHP Warning:  Missing argument 25 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:13:51 America/Chicago] PHP Warning:  Missing argument 26 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:13:51 America/Chicago] PHP Warning:  Missing argument 27 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:13:51 America/Chicago] PHP Warning:  Missing argument 28 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:13:51 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'password='d41d8cd98f00b204e9800998ecf8427e',salt='',autoLogin='',timeZone='',exp' at line 1' in /home4/ab66529/workorder.vespac.com/api/index.php:54
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/index.php(54): PDO->query('update frk_memb...')
+#1 /home4/ab66529/workorder.vespac.com/api/edit_profile.php(10): API->edit_profile('satyam@gmail.co...', 'test@123')
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/index.php on line 54
+[21-Oct-2021 07:26:54 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'zipCode='',city='',stateCode='',countryId='' where username = 'test@123'' at line 1' in /home4/ab66529/workorder.vespac.com/api/index.php:54
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/index.php(54): PDO->query('update frk_memb...')
+#1 /home4/ab66529/workorder.vespac.com/api/edit_profile.php(10): API->edit_profile('test@gmail.com', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'test@123')
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/index.php on line 54
+[21-Oct-2021 07:27:44 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'zipCode='',city='',stateCode='',countryId='' where username = 'test@123'' at line 1' in /home4/ab66529/workorder.vespac.com/api/index.php:54
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/index.php(54): PDO->query('update frk_memb...')
+#1 /home4/ab66529/workorder.vespac.com/api/edit_profile.php(10): API->edit_profile('test@gmail.com', NULL, 'test', 'qwerty', 'xyz', NULL, NULL, NULL, NULL, 'test@123')
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/index.php on line 54
+[21-Oct-2021 07:29:37 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'zipCode='',city='',stateCode='',countryId='' where username = ''' at line 1' in /home4/ab66529/workorder.vespac.com/api/index.php:54
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/index.php(54): PDO->query('update frk_memb...')
+#1 /home4/ab66529/workorder.vespac.com/api/edit_profile.php(10): API->edit_profile(NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/index.php on line 54
+[21-Oct-2021 07:30:47 America/Chicago] PHP Warning:  Missing argument 6 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:31:24 America/Chicago] PHP Warning:  Missing argument 6 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:32:08 America/Chicago] PHP Warning:  Missing argument 6 for API::edit_profile(), called in /home4/ab66529/workorder.vespac.com/api/edit_profile.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/index.php on line 50
+[21-Oct-2021 07:50:37 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'password='d41d8cd98f00b204e9800998ecf8427e',salt='',autoLogin='',timeZone='',exp' at line 1' in /home4/ab66529/workorder.vespac.com/api/index.php:54
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/index.php(54): PDO->query('update frk_memb...')
+#1 /home4/ab66529/workorder.vespac.com/api/edit_profile.php(10): API->edit_profile(NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/index.php on line 54
+[21-Oct-2021 07:58:01 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'password='d41d8cd98f00b204e9800998ecf8427e' where username = ''' at line 1' in /home4/ab66529/workorder.vespac.com/api/index.php:54
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/index.php(54): PDO->query('update frk_memb...')
+#1 /home4/ab66529/workorder.vespac.com/api/edit_profile.php(10): API->edit_profile(NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/index.php on line 54
+[21-Oct-2021 07:58:05 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'password='d41d8cd98f00b204e9800998ecf8427e' where username = ''' at line 1' in /home4/ab66529/workorder.vespac.com/api/index.php:54
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/index.php(54): PDO->query('update frk_memb...')
+#1 /home4/ab66529/workorder.vespac.com/api/edit_profile.php(10): API->edit_profile(NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/index.php on line 54

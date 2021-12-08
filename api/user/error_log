@@ -1,0 +1,82 @@
+[09-Nov-2021 05:51:46 America/Chicago] PHP Warning:  Missing argument 2 for API::forget_password_form(), called in /home4/ab66529/workorder.vespac.com/api/user/forget_password_form.php on line 9 and defined in /home4/ab66529/workorder.vespac.com/api/user/index.php on line 72
+[09-Nov-2021 05:53:10 America/Chicago] PHP Warning:  Missing argument 2 for API::forget_password_form(), called in /home4/ab66529/workorder.vespac.com/api/user/forget_password_form.php on line 9 and defined in /home4/ab66529/workorder.vespac.com/api/user/index.php on line 72
+[09-Nov-2021 05:53:10 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where username=''' at line 1' in /home4/ab66529/workorder.vespac.com/api/user/index.php:75
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/user/index.php(75): PDO->query('SELECT email * ...')
+#1 /home4/ab66529/workorder.vespac.com/api/user/forget_password_form.php(9): API->forget_password_form(NULL)
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/user/index.php on line 75
+[09-Nov-2021 05:53:41 America/Chicago] PHP Warning:  Missing argument 2 for API::forget_password_form(), called in /home4/ab66529/workorder.vespac.com/api/user/forget_password_form.php on line 9 and defined in /home4/ab66529/workorder.vespac.com/api/user/index.php on line 72
+[09-Nov-2021 05:53:41 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'frk_member where username=''' at line 1' in /home4/ab66529/workorder.vespac.com/api/user/index.php:75
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/user/index.php(75): PDO->query('SELECT * frk_me...')
+#1 /home4/ab66529/workorder.vespac.com/api/user/forget_password_form.php(9): API->forget_password_form(NULL)
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/user/index.php on line 75
+[09-Nov-2021 06:00:45 America/Chicago] PHP Warning:  Missing argument 2 for API::forget_password_form(), called in /home4/ab66529/workorder.vespac.com/api/user/forget_password_form.php on line 9 and defined in /home4/ab66529/workorder.vespac.com/api/user/index.php on line 72
+[09-Nov-2021 06:00:45 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'frk_member where username=''' at line 1' in /home4/ab66529/workorder.vespac.com/api/user/index.php:75
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/user/index.php(75): PDO->query('SELECT * frk_me...')
+#1 /home4/ab66529/workorder.vespac.com/api/user/forget_password_form.php(9): API->forget_password_form(NULL)
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/user/index.php on line 75
+[09-Nov-2021 06:00:49 America/Chicago] PHP Warning:  Missing argument 2 for API::forget_password_form(), called in /home4/ab66529/workorder.vespac.com/api/user/forget_password_form.php on line 9 and defined in /home4/ab66529/workorder.vespac.com/api/user/index.php on line 72
+[09-Nov-2021 06:00:49 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'frk_member where username=''' at line 1' in /home4/ab66529/workorder.vespac.com/api/user/index.php:75
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/user/index.php(75): PDO->query('SELECT * frk_me...')
+#1 /home4/ab66529/workorder.vespac.com/api/user/forget_password_form.php(9): API->forget_password_form(NULL)
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/user/index.php on line 75
+[09-Nov-2021 06:01:51 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'frk_member where username=''' at line 1' in /home4/ab66529/workorder.vespac.com/api/user/index.php:75
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/user/index.php(75): PDO->query('SELECT * frk_me...')
+#1 /home4/ab66529/workorder.vespac.com/api/user/forget_password_form.php(9): API->forget_password_form(NULL)
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/user/index.php on line 75
+[09-Nov-2021 06:02:20 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'frk_member where username='samwoo'' at line 1' in /home4/ab66529/workorder.vespac.com/api/user/index.php:75
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/user/index.php(75): PDO->query('SELECT * frk_me...')
+#1 /home4/ab66529/workorder.vespac.com/api/user/forget_password_form.php(9): API->forget_password_form('samwoo')
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/user/index.php on line 75
+[09-Nov-2021 06:02:24 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'frk_member where username='samwoo'' at line 1' in /home4/ab66529/workorder.vespac.com/api/user/index.php:75
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/user/index.php(75): PDO->query('SELECT * frk_me...')
+#1 /home4/ab66529/workorder.vespac.com/api/user/forget_password_form.php(9): API->forget_password_form('samwoo')
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/user/index.php on line 75
+[09-Nov-2021 06:03:13 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'frk_member where username='samwoo'' at line 1' in /home4/ab66529/workorder.vespac.com/api/user/index.php:75
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/user/index.php(75): PDO->query('SELECT * frk_me...')
+#1 /home4/ab66529/workorder.vespac.com/api/user/forget_password_form.php(9): API->forget_password_form('samwoo')
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/user/index.php on line 75
+[09-Nov-2021 06:04:28 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'frk_member where username='samwoo'' at line 1' in /home4/ab66529/workorder.vespac.com/api/user/index.php:75
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/user/index.php(75): PDO->query('SELECT * frk_me...')
+#1 /home4/ab66529/workorder.vespac.com/api/user/forget_password_form.php(9): API->forget_password_form('samwoo')
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/user/index.php on line 75
+[09-Nov-2021 06:08:36 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'frk_member where username='admin'' at line 1' in /home4/ab66529/workorder.vespac.com/api/user/index.php:75
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/user/index.php(75): PDO->query('SELECT * frk_me...')
+#1 /home4/ab66529/workorder.vespac.com/api/user/forget_password_form.php(9): API->forget_password_form('admin')
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/user/index.php on line 75
+[09-Nov-2021 06:09:44 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'frk_member where username='admin'' at line 1' in /home4/ab66529/workorder.vespac.com/api/user/index.php:75
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/user/index.php(75): PDO->query('SELECT * frk_me...')
+#1 /home4/ab66529/workorder.vespac.com/api/user/forget_password_form.php(9): API->forget_password_form('admin')
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/user/index.php on line 75
+[09-Nov-2021 06:09:59 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'frk_member where username=''' at line 1' in /home4/ab66529/workorder.vespac.com/api/user/index.php:75
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/user/index.php(75): PDO->query('SELECT * frk_me...')
+#1 /home4/ab66529/workorder.vespac.com/api/user/forget_password_form.php(9): API->forget_password_form(NULL)
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/user/index.php on line 75
+[09-Nov-2021 06:18:02 America/Chicago] PHP Warning:  mail() expects parameter 1 to be string, array given in /home4/ab66529/workorder.vespac.com/api/user/index.php on line 83
+[09-Nov-2021 06:20:38 America/Chicago] PHP Warning:  mail() expects parameter 1 to be string, array given in /home4/ab66529/workorder.vespac.com/api/user/index.php on line 83
+[09-Nov-2021 06:29:21 America/Chicago] PHP Warning:  mail() expects parameter 1 to be string, array given in /home4/ab66529/workorder.vespac.com/api/user/index.php on line 81
+[09-Nov-2021 06:29:24 America/Chicago] PHP Warning:  mail() expects parameter 1 to be string, array given in /home4/ab66529/workorder.vespac.com/api/user/index.php on line 81
+[09-Nov-2021 06:29:27 America/Chicago] PHP Warning:  mail() expects parameter 1 to be string, array given in /home4/ab66529/workorder.vespac.com/api/user/index.php on line 81

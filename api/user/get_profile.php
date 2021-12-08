@@ -1,0 +1,14 @@
+<?php
+header('Content-Type: application/json');
+header('Access-Control-Allow-Origin: *');
+
+$data = json_decode(file_get_contents("php://input"), true);
+require_once 'index.php';
+$result = $obj->get_profile($data['memberId']);
+//echo $result;
+//die;
+if ($result != '') {
+    echo json_encode(array("message" => $result, "status" => true));
+} else {
+    echo json_encode(array("message" => "Something wrong", "status" => false));
+}

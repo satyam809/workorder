@@ -1,0 +1,209 @@
+[25-Oct-2021 07:12:21 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'frk_itemStatus.statusKey' in 'field list'' in /home4/ab66529/workorder.vespac.com/api/task/index.php:38
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/task/index.php(38): PDO->query('select frk_item...')
+#1 /home4/ab66529/workorder.vespac.com/api/task/single_task.php(9): API->single_task('1', '20', '2')
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/task/index.php on line 38
+[25-Oct-2021 07:17:14 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from ((frk_item inner join frk_member on frk_member.memberId=frk_item.itemId)
+ ' at line 1' in /home4/ab66529/workorder.vespac.com/api/task/index.php:40
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/task/index.php(40): PDO->query('select frk_item...')
+#1 /home4/ab66529/workorder.vespac.com/api/task/single_task.php(9): API->single_task('1', '20', '2')
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/task/index.php on line 40
+[26-Oct-2021 09:19:45 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Future<dynamic>'', '', '')' at line 2' in /home4/ab66529/workorder.vespac.com/api/task/index.php:24
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/task/index.php(24): PDO->query('insert into frk...')
+#1 /home4/ab66529/workorder.vespac.com/api/task/create_task.php(10): API->create_task('jjdd', 'jjee\nkkd', '29/10/21', 'Select One', 'Select One', 'Preject One', 'Instance of 'Fu...', '', NULL, 'Select One', '2021-10-26 19:4...')
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/task/index.php on line 24
+[26-Oct-2021 22:38:22 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Future<dynamic>'', 'private', '')' at line 2' in /home4/ab66529/workorder.vespac.com/api/task/index.php:24
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/task/index.php(24): PDO->query('insert into frk...')
+#1 /home4/ab66529/workorder.vespac.com/api/task/create_task.php(10): API->create_task('bndd', 'bjdjjd', '30/10/21', 'Priority One', 'Context One', 'Preject One', 'Instance of 'Fu...', 'private', NULL, 'Status One', '2021-10-27 09:0...')
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/task/index.php on line 24
+[26-Oct-2021 22:43:35 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Future<dynamic>'', '', '')' at line 2' in /home4/ab66529/workorder.vespac.com/api/task/index.php:24
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/task/index.php(24): PDO->query('insert into frk...')
+#1 /home4/ab66529/workorder.vespac.com/api/task/create_task.php(10): API->create_task('kssd', 'ikeee', '27/10/21', 'Select One', 'Select One', 'Preject One', 'Instance of 'Fu...', '', NULL, 'Select One', '2021-10-27 09:1...')
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/task/index.php on line 24
+[26-Oct-2021 22:51:17 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Future<dynamic>'', '', '')' at line 2' in /home4/ab66529/workorder.vespac.com/api/task/index.php:24
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/task/index.php(24): PDO->query('insert into frk...')
+#1 /home4/ab66529/workorder.vespac.com/api/task/create_task.php(10): API->create_task('ndmdd', 'hjsd', '30/10/21', 'Select One', 'Select One', 'Preject One', 'Instance of 'Fu...', '', NULL, 'Select One', '2021-10-27 09:2...')
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/task/index.php on line 24
+[26-Oct-2021 22:51:40 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Future<dynamic>'', '', '')' at line 2' in /home4/ab66529/workorder.vespac.com/api/task/index.php:24
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/task/index.php(24): PDO->query('insert into frk...')
+#1 /home4/ab66529/workorder.vespac.com/api/task/create_task.php(10): API->create_task('ndmdd', 'hjsd', '30/10/21', 'Select One', 'Select One', 'Preject One', 'Instance of 'Fu...', '', NULL, 'Select One', '2021-10-27 09:2...')
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/task/index.php on line 24
+[09-Nov-2021 06:00:07 America/Chicago] PHP Fatal error:  Call to a member function query() on null in /home4/ab66529/workorder.vespac.com/api/task/index.php on line 103
+[19-Nov-2021 00:15:22 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'frk_project.name' in 'field list'' in /home4/ab66529/workorder.vespac.com/api/task/index.php:50
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/task/index.php(50): PDO->query('select frk_item...')
+#1 /home4/ab66529/workorder.vespac.com/api/task/view_task.php(11): API->view_task('20')
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/task/index.php on line 50
+[19-Nov-2021 00:16:16 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'frk_project.name' in 'field list'' in /home4/ab66529/workorder.vespac.com/api/task/index.php:50
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/task/index.php(50): PDO->query('select frk_item...')
+#1 /home4/ab66529/workorder.vespac.com/api/task/view_task.php(11): API->view_task('20')
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/task/index.php on line 50
+[19-Nov-2021 01:00:18 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'frk_itemStatus'' in /home4/ab66529/workorder.vespac.com/api/task/index.php:50
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/task/index.php(50): PDO->query('select frk_item...')
+#1 /home4/ab66529/workorder.vespac.com/api/task/view_task.php(11): API->view_task('20')
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/task/index.php on line 50
+[19-Nov-2021 01:16:26 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where frk_item.memberId='20'' at line 3' in /home4/ab66529/workorder.vespac.com/api/task/index.php:50
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/task/index.php(50): PDO->query('select frk_item...')
+#1 /home4/ab66529/workorder.vespac.com/api/task/view_task.php(11): API->view_task('20')
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/task/index.php on line 50
+[19-Nov-2021 01:17:29 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where frk_item.memberId='20'' at line 3' in /home4/ab66529/workorder.vespac.com/api/task/index.php:50
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/task/index.php(50): PDO->query('select frk_item...')
+#1 /home4/ab66529/workorder.vespac.com/api/task/view_task.php(11): API->view_task('20')
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/task/index.php on line 50
+[19-Nov-2021 01:17:32 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where frk_item.memberId='20'' at line 3' in /home4/ab66529/workorder.vespac.com/api/task/index.php:50
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/task/index.php(50): PDO->query('select frk_item...')
+#1 /home4/ab66529/workorder.vespac.com/api/task/view_task.php(11): API->view_task('20')
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/task/index.php on line 50
+[19-Nov-2021 01:48:39 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where frk_item.memberId='20'' at line 4' in /home4/ab66529/workorder.vespac.com/api/task/index.php:51
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/task/index.php(51): PDO->query('select frk_item...')
+#1 /home4/ab66529/workorder.vespac.com/api/task/view_task.php(11): API->view_task('20')
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/task/index.php on line 51
+[19-Nov-2021 01:49:05 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where frk_item.memberId='20'' at line 4' in /home4/ab66529/workorder.vespac.com/api/task/index.php:51
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/task/index.php(51): PDO->query('select frk_item...')
+#1 /home4/ab66529/workorder.vespac.com/api/task/view_task.php(11): API->view_task('20')
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/task/index.php on line 51
+[19-Nov-2021 01:51:26 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where frk_item.memberId='20'' at line 4' in /home4/ab66529/workorder.vespac.com/api/task/index.php:51
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/task/index.php(51): PDO->query('select frk_item...')
+#1 /home4/ab66529/workorder.vespac.com/api/task/view_task.php(11): API->view_task('20')
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/task/index.php on line 51
+[19-Nov-2021 01:53:59 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where frk_item.memberId='20'' at line 4' in /home4/ab66529/workorder.vespac.com/api/task/index.php:51
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/task/index.php(51): PDO->query('select frk_item...')
+#1 /home4/ab66529/workorder.vespac.com/api/task/view_task.php(11): API->view_task('20')
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/task/index.php on line 51
+[19-Nov-2021 01:57:33 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where frk_item.memberId='20'' at line 4' in /home4/ab66529/workorder.vespac.com/api/task/index.php:51
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/task/index.php(51): PDO->query('select frk_item...')
+#1 /home4/ab66529/workorder.vespac.com/api/task/view_task.php(11): API->view_task('20')
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/task/index.php on line 51
+[19-Nov-2021 01:58:13 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where frk_item.memberId='20'' at line 4' in /home4/ab66529/workorder.vespac.com/api/task/index.php:51
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/task/index.php(51): PDO->query('select frk_item...')
+#1 /home4/ab66529/workorder.vespac.com/api/task/view_task.php(11): API->view_task('20')
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/task/index.php on line 51
+[19-Nov-2021 01:59:33 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where frk_item.memberId=''' at line 4' in /home4/ab66529/workorder.vespac.com/api/task/index.php:51
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/task/index.php(51): PDO->query('select frk_item...')
+#1 /home4/ab66529/workorder.vespac.com/api/task/view_task.php(11): API->view_task(NULL)
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/task/index.php on line 51
+[19-Nov-2021 01:59:50 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where frk_item.memberId='20'' at line 4' in /home4/ab66529/workorder.vespac.com/api/task/index.php:51
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/task/index.php(51): PDO->query('select frk_item...')
+#1 /home4/ab66529/workorder.vespac.com/api/task/view_task.php(11): API->view_task('20')
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/task/index.php on line 51
+[19-Nov-2021 02:00:00 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where frk_item.memberId='20'' at line 4' in /home4/ab66529/workorder.vespac.com/api/task/index.php:51
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/task/index.php(51): PDO->query('select frk_item...')
+#1 /home4/ab66529/workorder.vespac.com/api/task/view_task.php(11): API->view_task('20')
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/task/index.php on line 51
+[19-Nov-2021 03:13:28 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where frk_item.memberId='20'' at line 4' in /home4/ab66529/workorder.vespac.com/api/task/index.php:51
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/task/index.php(51): PDO->query('select frk_item...')
+#1 /home4/ab66529/workorder.vespac.com/api/task/view_task.php(11): API->view_task('20')
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/task/index.php on line 51
+[19-Nov-2021 03:18:41 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where frk_item.memberId='20'' at line 4' in /home4/ab66529/workorder.vespac.com/api/task/index.php:51
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/task/index.php(51): PDO->query('select frk_item...')
+#1 /home4/ab66529/workorder.vespac.com/api/task/view_task.php(11): API->view_task('20')
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/task/index.php on line 51
+[19-Nov-2021 03:19:52 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'frk_item.memberId' in 'having clause'' in /home4/ab66529/workorder.vespac.com/api/task/index.php:51
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/task/index.php(51): PDO->query('select frk_item...')
+#1 /home4/ab66529/workorder.vespac.com/api/task/view_task.php(11): API->view_task('20')
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/task/index.php on line 51
+[19-Nov-2021 03:27:57 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'frk_item.memberId' in 'having clause'' in /home4/ab66529/workorder.vespac.com/api/task/index.php:51
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/task/index.php(51): PDO->query('select frk_item...')
+#1 /home4/ab66529/workorder.vespac.com/api/task/view_task.php(11): API->view_task('20')
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/task/index.php on line 51
+[19-Nov-2021 03:28:01 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'frk_item.memberId' in 'having clause'' in /home4/ab66529/workorder.vespac.com/api/task/index.php:51
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/task/index.php(51): PDO->query('select frk_item...')
+#1 /home4/ab66529/workorder.vespac.com/api/task/view_task.php(11): API->view_task('20')
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/task/index.php on line 51
+[19-Nov-2021 03:28:16 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'frk_item.memberId' in 'having clause'' in /home4/ab66529/workorder.vespac.com/api/task/index.php:51
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/task/index.php(51): PDO->query('select frk_item...')
+#1 /home4/ab66529/workorder.vespac.com/api/task/view_task.php(11): API->view_task('1')
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/task/index.php on line 51
+[24-Nov-2021 04:33:42 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'subcatname' in 'field list'' in /home4/ab66529/workorder.vespac.com/api/task/index.php:97
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/task/index.php(97): PDO->query('select subcatna...')
+#1 /home4/ab66529/workorder.vespac.com/api/task/view_equipment.php(4): API->view_equipment()
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/task/index.php on line 97
+[24-Nov-2021 04:33:55 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'subcatname' in 'field list'' in /home4/ab66529/workorder.vespac.com/api/task/index.php:97
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/task/index.php(97): PDO->query('select subcatna...')
+#1 /home4/ab66529/workorder.vespac.com/api/task/view_equipment.php(4): API->view_equipment()
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/task/index.php on line 97
+[25-Nov-2021 01:22:10 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP BY frk_item.itemId' at line 4' in /home4/ab66529/workorder.vespac.com/api/task/index.php:51
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/task/index.php(51): PDO->query('select frk_item...')
+#1 /home4/ab66529/workorder.vespac.com/api/task/view_task.php(11): API->view_task(NULL)
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/task/index.php on line 51
+[30-Nov-2021 06:37:15 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP BY frk_item.itemId' at line 4' in /home4/ab66529/workorder.vespac.com/api/task/index.php:51
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/task/index.php(51): PDO->query('select frk_item...')
+#1 /home4/ab66529/workorder.vespac.com/api/task/view_task.php(11): API->view_task(NULL)
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/task/index.php on line 51
+[30-Nov-2021 06:37:17 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP BY frk_item.itemId' at line 4' in /home4/ab66529/workorder.vespac.com/api/task/index.php:51
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/task/index.php(51): PDO->query('select frk_item...')
+#1 /home4/ab66529/workorder.vespac.com/api/task/view_task.php(11): API->view_task(NULL)
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/task/index.php on line 51
+[30-Nov-2021 06:51:32 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'GROUP BY frk_item.itemId' at line 4' in /home4/ab66529/workorder.vespac.com/api/task/index.php:51
+Stack trace:
+#0 /home4/ab66529/workorder.vespac.com/api/task/index.php(51): PDO->query('select frk_item...')
+#1 /home4/ab66529/workorder.vespac.com/api/task/view_task.php(11): API->view_task(NULL)
+#2 {main}
+  thrown in /home4/ab66529/workorder.vespac.com/api/task/index.php on line 51
+[01-Dec-2021 03:02:47 America/Chicago] PHP Fatal error:  Call to a member function query() on null in /home4/ab66529/workorder.vespac.com/api/task/index.php on line 137
+[01-Dec-2021 03:32:16 America/Chicago] PHP Fatal error:  Call to a member function query() on null in /home4/ab66529/workorder.vespac.com/api/task/index.php on line 137
+[01-Dec-2021 03:36:36 America/Chicago] PHP Fatal error:  Call to a member function query() on null in /home4/ab66529/workorder.vespac.com/api/task/index.php on line 137

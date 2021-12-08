@@ -1,0 +1,10 @@
+[24-Oct-2021 02:48:16 America/Chicago] PHP Warning:  require(./config.php): failed to open stream: No such file or directory in /home4/ab66529/workorder.vespac.com/api/comment/index.php on line 3
+[24-Oct-2021 02:48:16 America/Chicago] PHP Warning:  require(./config.php): failed to open stream: No such file or directory in /home4/ab66529/workorder.vespac.com/api/comment/index.php on line 3
+[24-Oct-2021 02:48:16 America/Chicago] PHP Fatal error:  require(): Failed opening required './config.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home4/ab66529/workorder.vespac.com/api/comment/index.php on line 3
+[24-Oct-2021 02:51:05 America/Chicago] PHP Warning:  require(/../config.php): failed to open stream: No such file or directory in /home4/ab66529/workorder.vespac.com/api/comment/index.php on line 3
+[24-Oct-2021 02:51:05 America/Chicago] PHP Fatal error:  require(): Failed opening required '/../config.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home4/ab66529/workorder.vespac.com/api/comment/index.php on line 3
+[24-Oct-2021 02:51:14 America/Chicago] PHP Warning:  require(/../config.php): failed to open stream: No such file or directory in /home4/ab66529/workorder.vespac.com/api/comment/index.php on line 3
+[24-Oct-2021 02:51:14 America/Chicago] PHP Fatal error:  require(): Failed opening required '/../config.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home4/ab66529/workorder.vespac.com/api/comment/index.php on line 3
+[24-Oct-2021 02:57:14 America/Chicago] PHP Warning:  Missing argument 4 for API::insert_comment(), called in /home4/ab66529/workorder.vespac.com/api/comment/insert_comment.php on line 10 and defined in /home4/ab66529/workorder.vespac.com/api/comment/index.php on line 34
+[24-Oct-2021 07:00:23 America/Chicago] PHP Fatal error:  Call to undefined method API::delete_comment() in /home4/ab66529/workorder.vespac.com/api/comment/delete_comments.php on line 10
+[01-Dec-2021 03:01:13 America/Chicago] PHP Fatal error:  Call to a member function query() on null in /home4/ab66529/workorder.vespac.com/api/comment/index.php on line 35
